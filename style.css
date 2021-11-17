@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neucha';
+  src: url("assets/fonts/Neucha-Regular.ttf");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  font: 16px/1.6em 'Open Sans', sans-serif;
+  color: #2A2626;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  max-width: 1110px;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+
